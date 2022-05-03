@@ -1,0 +1,8 @@
+prefix=/home/danilo/Desktop/Piccoli/danilo_ws/devel
+
+Name: iiwa_kdl
+Description: Description of iiwa_kdl
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

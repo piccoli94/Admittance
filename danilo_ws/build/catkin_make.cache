@@ -1,0 +1,2 @@
+adaptive:iiwa_kdl:kuka_iiwa_support:lab_test:lbr_iiwa_description:lbr_iiwa_gazebo:net-ft-ros-master:region_controller
+-DCATKIN_DEVEL_PREFIX=/home/danilo/Desktop/Piccoli/danilo_ws/devel -DCMAKE_INSTALL_PREFIX=/home/danilo/Desktop/Piccoli/danilo_ws/install -G Unix Makefiles

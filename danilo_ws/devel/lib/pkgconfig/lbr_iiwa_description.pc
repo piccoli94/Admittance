@@ -1,0 +1,8 @@
+prefix=/home/danilo/Desktop/Piccoli/danilo_ws/devel
+
+Name: lbr_iiwa_description
+Description: Description of lbr_iiwa_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

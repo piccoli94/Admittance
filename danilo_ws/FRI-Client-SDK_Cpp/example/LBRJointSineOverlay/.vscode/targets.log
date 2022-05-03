@@ -1,0 +1,619 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Thu Jul 22 11:24:43 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# makefile (from '../../build/GNUMake/rules_examples.mak', line 5)
+OBJ = $(SOURCES:%.cpp=$(OBJ_DIR)/%.o)
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 8)
+TARGET = LBRJointSineOverlay
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+OGRE_RESOURCE_PATH = /usr/lib/x86_64-linux-gnu/OGRE-1.9.0
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/mh/Desktop/FRI-Client-SDK_Cpp/example/LBRJointSineOverlay
+# makefile
+SHELL = /bin/sh
+# makefile (from '../../build/GNUMake/tools.mak', line 11)
+RM = rm -f
+# environment
+SNAP_DATA = /var/snap/code/70
+# makefile (from 'Makefile', line 1)
+BASE_DIR = ../..
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:45347
+# makefile (from '../../build/GNUMake/paths.mak', line 4)
+TOOLS_MAK = tools.mak
+# makefile (from '../../build/GNUMake/tools.mak', line 17)
+CFLAGS = -O2 -Wall -DHAVE_SOCKLEN_T -DPB_SYSTEM_HEADER=\"pb_syshdr.h\" -DPB_FIELD_16BIT -DHAVE_STDINT_H -DHAVE_STDDEF_H -DHAVE_STDBOOL_H -DHAVE_STDLIB_H -DHAVE_STRING_H 
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'obj/LBRJointSineOverlayClient.d', line 1)
+MAKEFILE_LIST :=  Makefile ../../build/GNUMake/paths.mak ../../build/GNUMake/tools.mak ../../build/GNUMake/rules_examples.mak obj/LBRJointSineOverlayApp.d obj/LBRJointSineOverlayClient.d
+# makefile (from '../../build/GNUMake/paths.mak', line 10)
+LIB_DIR = $(BASE_DIR)/lib
+# automatic
+@F = $(notdir $@)
+# makefile (from '../../build/GNUMake/tools.mak', line 13)
+CP = cp -uf
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+GAZEBO_PLUGIN_PATH = /usr/lib/x86_64-linux-gnu/gazebo-11/plugins:
+# environment
+USERNAME = mh
+# makefile (from 'Makefile', line 5)
+SOURCES = LBRJointSineOverlayApp.cpp LBRJointSineOverlayClient.cpp
+# makefile (from '../../build/GNUMake/paths.mak', line 12)
+OBJ_DIR = obj
+# makefile (from 'Makefile', line 10)
+CXXFLAGS = $(CFLAGS) 
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+ROS_ETC_DIR = /opt/ros/noetic/etc/ros
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from '../../build/GNUMake/paths.mak', line 20)
+PROTOBUF_GEN_DIR = $(SRC_DIR)/protobuf_gen
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+_ = /snap/code/70/usr/share/code/code
+# environment
+ROS_PACKAGE_PATH = /opt/ros/noetic/share
+# environment
+MANAGERPID = 1504
+# environment
+ROS_PYTHON_VERSION = 3
+# makefile (from '../../build/GNUMake/paths.mak', line 16)
+CLIENTTRAFO_DIR = $(SRC_DIR)/client_trafo
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LS_COLORS = 
+# environment
+VSCODE_CWD = /home/mh
+# environment
+GAZEBO_MODEL_DATABASE_URI = http://models.gazebosim.org
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/70/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/mh/.local/bin:/opt/ros/noetic/bin:/opt/ros/foxy/bin:/home/mh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# makefile (from '../../build/GNUMake/rules_examples.mak', line 6)
+DEP = $(SOURCES:%.cpp=$(OBJ_DIR)/%.d)
+# environment
+SESSION_MANAGER = local/mh-Aspire-A515-51G:@/tmp/.ICE-unix/1737,unix/mh-Aspire-A515-51G:/tmp/.ICE-unix/1737
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/mh/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/70
+# environment
+ROS_ROOT = /opt/ros/noetic/share/ros
+# makefile (from '../../build/GNUMake/paths.mak', line 7)
+EXP_DIR = $(BASE_DIR)/example
+# environment
+SNAP_VERSION = c3f12631
+# makefile (from '../../build/GNUMake/tools.mak', line 5)
+AR = ar
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=99c53519-34e3-43bd-88c5-a574486e5cd2&iid=99c53519-34e3-43bd-88c5-a574486e5cd2&sid=99c53519-34e3-43bd-88c5-a574486e5cd2","uploadToServer":true}
+# environment
+INVOCATION_ID = 51e73b1da8a5480b90edf76665af21d2
+# makefile (from 'Makefile', line 11)
+LDFLAGS =  $(LIB_DIR)/libFRIClient.a
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/70/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+CMAKE_PREFIX_PATH = /opt/ros/noetic
+# environment
+ROS_LOCALHOST_ONLY = 0
+# environment
+ROS_DISTRO = noetic
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3220
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# makefile (from '../../build/GNUMake/paths.mak', line 18)
+NANOPB_DIR = $(SRC_DIR)/nanopb-0.2.8
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+ 
+PWD = /home/mh/Desktop/FRI-Client-SDK_Cpp/example/LBRJointSineOverlay
+# default
+.LOADED := 
+# environment
+GAZEBO_MASTER_URI = http://localhost:11345
+# environment
+SSH_AGENT_PID = 1692
+# environment
+PKG_CONFIG_PATH = /opt/ros/noetic/lib/pkgconfig
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# makefile (from '../../build/GNUMake/paths.mak', line 9)
+INC_DIR = $(BASE_DIR)/include
+# environment
+GTK_MODULES = gail:atk-bridge
+# makefile (from '../../build/GNUMake/paths.mak', line 8)
+DOC_DIR = $(BASE_DIR)/doc
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/mh
+# environment
+LD_LIBRARY_PATH = /opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+AMENT_PREFIX_PATH = /opt/ros/foxy
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/mh/.config/Code/CachedData/c3f126316369cd610563c75b1b1725e0679adfb3
+# environment
+LOGNAME = mh
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = SjlB2OzRxOfhlJx8WbJ4ZyymKliZ_bep0Cx6wepGu04Jk_PxQh1_
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/mh/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from '../../build/GNUMake/tools.mak', line 7)
+MKDIR = mkdir -p
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/mh
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+GAZEBO_RESOURCE_PATH = /usr/share/gazebo-11:
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# makefile (from '../../build/GNUMake/tools.mak', line 9)
+RMDIR = rm -rf
+# environment
+SNAP_USER_DATA = /home/mh/snap/code/70
+# environment
+SHLVL = 0
+# makefile (from '../../build/GNUMake/tools.mak', line 15)
+CC = gcc
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-9219fdd4-0924-473f-9397-b39a89244909.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = mh
+# environment
+SNAP_REVISION = 70
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+ROSLISP_PACKAGE_DIRECTORIES = 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-bd822b7d-1.58.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+PYTHONPATH = /opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/mh/.config/Code/exthost Crash Reports
+# environment
+ROS_VERSION = 1
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# makefile (from '../../build/GNUMake/paths.mak', line 19)
+PROTOBUF_DIR = $(SRC_DIR)/protobuf
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = SjlB2OzRxOfhlJx8WbJ4ZyymKliZ_bep0Cx6wepGu04Jk_PxQh1_
+# makefile (from '../../build/GNUMake/paths.mak', line 11)
+SRC_DIR = $(BASE_DIR)/src
+# environment
+VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from '../../build/GNUMake/tools.mak', line 27)
+CXX = g++
+# environment
+ROS_MASTER_URI = http://localhost:11311
+# environment
+SNAP_NAME = code
+# makefile (from '../../build/GNUMake/paths.mak', line 6)
+BIN_DIR = $(BASE_DIR)/bin
+# environment
+LC_ALL = C
+# makefile (from '../../build/GNUMake/paths.mak', line 17)
+CONNECTION_DIR = $(SRC_DIR)/connection
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from '../../build/GNUMake/paths.mak', line 15)
+CLIENTLBR_DIR = $(SRC_DIR)/client_lbr
+# makefile (from '../../build/GNUMake/paths.mak', line 14)
+CLIENTBASE_DIR = $(SRC_DIR)/base
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+GAZEBO_MODEL_PATH = /usr/share/gazebo-11/models:
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# makefile (from '../../build/GNUMake/rules_examples.mak', line 7)
+INC_PARAMS = $(INC_DIR:%=-I%) 
+# environment
+LANG = C
+# environment
+VSCODE_PID = 3263
+# variable set hash-table stats:
+# Load=174/1024=17%, Rehash=0, Collisions=27/239=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# obj (device 2058, inode 4199545): No files, no impossibilities so far.
+# . (device 2058, inode 4199502): 9 files, no impossibilities.
+
+ 
+# 9 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+obj/%.o: %.cpp obj/%.d
+#  recipe to execute (from '../../build/GNUMake/rules_examples.mak', line 15):
+	$(MKDIR) $(@D)
+	$(CXX) -c -o $@ $< $(CXXFLAGS) $(INC_PARAMS)
+
+obj/%.d: %.cpp
+#  recipe to execute (from '../../build/GNUMake/rules_examples.mak', line 19):
+	$(MKDIR) $(@D)
+	$(CXX) -MM $< -MT $(OBJ_DIR)/$*.o $(INC_PARAMS) > $@
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+obj/LBRJointSineOverlayApp.d: LBRJointSineOverlayApp.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'LBRJointSineOverlayApp'
+#  Last modified 2021-07-22 11:24:43.285605238
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from '../../build/GNUMake/rules_examples.mak', line 19):
+	$(MKDIR) $(@D)
+	$(CXX) -MM $< -MT $(OBJ_DIR)/$*.o $(INC_PARAMS) > $@
+
+# Not a target:
+../../include/friClientIf.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-02-27 13:04:44
+#  File has been updated.
+#  Successfully updated.
+
+all: LBRJointSineOverlay
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/11=0%
+
+.PHONY: all install clean uninstall
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../../build/GNUMake/tools.mak:
+#  Implicit rule search has been done.
+#  Last modified 2019-02-20 14:43:38
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../../build/GNUMake/paths.mak:
+#  Implicit rule search has been done.
+#  Last modified 2019-02-20 14:43:38
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../../build/GNUMake/rules_examples.mak:
+#  Implicit rule search has been done.
+#  Last modified 2019-02-20 14:43:38
+#  File has been updated.
+#  Successfully updated.
+
+uninstall:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '../../build/GNUMake/rules_examples.mak', line 33):
+	$(RM) $(BIN_DIR)/$(TARGET)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-20 11:04:55.995406429
+#  File has been updated.
+#  Successfully updated.
+
+obj/LBRJointSineOverlayApp.o: LBRJointSineOverlayApp.cpp obj/LBRJointSineOverlayApp.d LBRJointSineOverlayApp.cpp LBRJointSineOverlayClient.h ../../include/friLBRClient.h ../../include/friClientIf.h ../../include/friLBRState.h ../../include/friLBRCommand.h ../../include/friUdpConnection.h ../../include/friConnectionIf.h ../../include/friClientApplication.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'LBRJointSineOverlayApp'
+#  Last modified 2021-07-20 13:38:05.43345094
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj/LBRJointSineOverlayApp.o
+# automatic
+# % := 
+# automatic
+# * := LBRJointSineOverlayApp
+# automatic
+# + := LBRJointSineOverlayApp.cpp obj/LBRJointSineOverlayApp.d LBRJointSineOverlayApp.cpp LBRJointSineOverlayClient.h ../../include/friLBRClient.h ../../include/friClientIf.h ../../include/friLBRState.h ../../include/friLBRCommand.h ../../include/friUdpConnection.h ../../include/friConnectionIf.h ../../include/friClientApplication.h
+# automatic
+# | := 
+# automatic
+# < := LBRJointSineOverlayApp.cpp
+# automatic
+# ^ := LBRJointSineOverlayApp.cpp obj/LBRJointSineOverlayApp.d LBRJointSineOverlayClient.h ../../include/friLBRClient.h ../../include/friClientIf.h ../../include/friLBRState.h ../../include/friLBRCommand.h ../../include/friUdpConnection.h ../../include/friConnectionIf.h ../../include/friClientApplication.h
+# automatic
+# ? := obj/LBRJointSineOverlayApp.d
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/22=5%
+#  recipe to execute (from '../../build/GNUMake/rules_examples.mak', line 15):
+	$(MKDIR) $(@D)
+	$(CXX) -c -o $@ $< $(CXXFLAGS) $(INC_PARAMS)
+
+# Not a target:
+../../include/friClientApplication.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-02-27 13:04:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+LBRJointSineOverlayApp.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-02-27 13:04:44
+#  File has been updated.
+#  Successfully updated.
+
+LBRJointSineOverlay: obj/LBRJointSineOverlayApp.o obj/LBRJointSineOverlayClient.o
+#  Implicit rule search has not been done.
+ 
+#  Last modified 2021-07-20 13:38:06.221450962
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/11=0%
+#  recipe to execute (from '../../build/GNUMake/rules_examples.mak', line 12):
+	$(CXX) -o $@ $(OBJ) $(CXXFLAGS) $(LDFLAGS)
+
+# Not a target:
+../../include/friLBRState.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-02-27 13:04:44
+#  File has been updated.
+#  Successfully updated.
+
+obj/LBRJointSineOverlayClient.d: LBRJointSineOverlayClient.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'LBRJointSineOverlayClient'
+#  Last modified 2021-07-22 11:24:41.857605291
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from '../../build/GNUMake/rules_examples.mak', line 19):
+	$(MKDIR) $(@D)
+	$(CXX) -MM $< -MT $(OBJ_DIR)/$*.o $(INC_PARAMS) > $@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '../../build/GNUMake/rules_examples.mak', line 25):
+	$(RMDIR) $(OBJ_DIR)
+	$(RM) $(TARGET)
+
+# Not a target:
+../../include/friLBRCommand.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-02-27 13:04:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../../include/friConnectionIf.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-02-27 13:04:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../../include/friLBRClient.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-02-27 13:04:44
+#  File has been updated.
+#  Successfully updated.
+
+obj/LBRJointSineOverlayClient.o: LBRJointSineOverlayClient.cpp LBRJointSineOverlayClient.h ../../include/friLBRClient.h ../../include/friClientIf.h ../../include/friLBRState.h ../../include/friLBRCommand.h ../../include/friLBRState.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+LBRJointSineOverlayClient.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-02-27 13:04:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+LBRJointSineOverlayClient.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-02-27 13:04:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../../include/friUdpConnection.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-02-27 13:04:44
+#  File has been updated.
+#  Successfully updated.
+
+install:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '../../build/GNUMake/rules_examples.mak', line 29):
+	$(MKDIR) $(BIN_DIR)
+	$(CP) $(TARGET) $(BIN_DIR)
+
+# files hash-table stats:
+# Load=26/1024=3%, Rehash=0, Collisions=2/78=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 37 / storage = 726 B / avg = 19 B
+# current buf: size = 8162 B / used = 726 B / count = 37 / avg = 19 B
+
+# strcache performance: lookups = 84 / hit rate = 55%
+# hash-table stats:
+# Load=37/8192=0%, Rehash=0, Collisions=1/84=1%
+# Finished Make data base on Thu Jul 22 11:24:43 2021
+
+ 

@@ -1,0 +1,8 @@
+prefix=/home/danilo/Desktop/Piccoli/danilo_ws/devel
+
+Name: adaptive
+Description: Description of adaptive
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

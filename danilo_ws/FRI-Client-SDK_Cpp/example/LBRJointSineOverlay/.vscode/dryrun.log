@@ -1,0 +1,18 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/mh/Desktop/FRI-Client-SDK_Cpp/example/LBRJointSineOverlay'
+mkdir -p obj
+ 
+g++ -MM LBRJointSineOverlayClient.cpp -MT obj/LBRJointSineOverlayClient.o -I../../include  > obj/LBRJointSineOverlayClient.d
+ 
+mkdir -p obj
+ 
+g++ -MM LBRJointSineOverlayApp.cpp -MT obj/LBRJointSineOverlayApp.o -I../../include  > obj/LBRJointSineOverlayApp.d
+ 
+mkdir -p obj
+g++ -c -o obj/LBRJointSineOverlayApp.o LBRJointSineOverlayApp.cpp -O2 -Wall -DHAVE_SOCKLEN_T -DPB_SYSTEM_HEADER=\"pb_syshdr.h\" -DPB_FIELD_16BIT -DHAVE_STDINT_H -DHAVE_STDDEF_H -DHAVE_STDBOOL_H -DHAVE_STDLIB_H -DHAVE_STRING_H   -I../../include 
+mkdir -p obj
+ 
+g++ -c -o obj/LBRJointSineOverlayClient.o LBRJointSineOverlayClient.cpp -O2 -Wall -DHAVE_SOCKLEN_T -DPB_SYSTEM_HEADER=\"pb_syshdr.h\" -DPB_FIELD_16BIT -DHAVE_STDINT_H -DHAVE_STDDEF_H -DHAVE_STDBOOL_H -DHAVE_STDLIB_H -DHAVE_STRING_H   -I../../include 
+g++ -o LBRJointSineOverlay obj/LBRJointSineOverlayApp.o obj/LBRJointSineOverlayClient.o -O2 -Wall -DHAVE_SOCKLEN_T -DPB_SYSTEM_HEADER=\"pb_syshdr.h\" -DPB_FIELD_16BIT -DHAVE_STDINT_H -DHAVE_STDDEF_H -DHAVE_STDBOOL_H -DHAVE_STDLIB_H -DHAVE_STRING_H    ../../lib/libFRIClient.a
+make: Leaving directory '/home/mh/Desktop/FRI-Client-SDK_Cpp/example/LBRJointSineOverlay'
+ 

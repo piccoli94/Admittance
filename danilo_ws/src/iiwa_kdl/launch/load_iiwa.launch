@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+
+<launch>
+	<param name="robot_description" command="$(find xacro)/xacro '$(find kuka_iiwa_support)/urdf/kuka_iiwa_ctrl.xacro'" />
+ 
+
+
+</launch>

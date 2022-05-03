@@ -1,0 +1,8 @@
+prefix=/home/danilo/Desktop/Piccoli/danilo_ws/devel
+
+Name: lab_test
+Description: Description of lab_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
