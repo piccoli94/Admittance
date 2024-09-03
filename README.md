@@ -8,5 +8,5 @@ The key is Split out operative space into 3 regions:
 
 In addition to these controls there is as interaction controller which recognize the direction of the arm and choose to enchance this movemnt if it would be correct or block it if wouldn't. Therefore a fatigue factor has been added to the algorithm to adapt it to the patient condition. The system starts with fatigue equal to 1 (no effort of enhance). If the lost of motion control is significant, the fatigue is increased to 2 or more to enchance the movements. Otherwise, if the patient has regained part of his mobility, the fatigue is decreased to 0.5 or less to make him exert more effort and speed up his recovery.
 
-I used it on KUKA MED 7 AND 14 with KUKA FRI, implementing 3d force and torque measurements obtained with an ATI MINI45 force/torque sensor placed on the tip of the robot. But this code implements only a simulated force
+I used it on KUKA MED 7 AND 14 with KUKA FRI, implementing 3d force and torque measurements obtained with an ATI MINI45 force/torque sensor placed on the tip of the robot. But this code implements only a test done in simulation
 
